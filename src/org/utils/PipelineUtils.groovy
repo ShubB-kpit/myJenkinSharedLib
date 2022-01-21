@@ -5,6 +5,6 @@ class PipelineUtils {
     static def deleteFile(String name) { 
         //new File(name).delete()
         //System.out.println("helllo");
-        echo "${name.getClass()}"
+        println("${name.getClass()}")
     } 
 } 

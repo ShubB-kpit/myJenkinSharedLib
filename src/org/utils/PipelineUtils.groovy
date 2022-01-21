@@ -3,8 +3,8 @@ package org.utils
 
 class PipelineUtils { 
     static def deleteFile(String name) { 
-        //new File(name).delete()
+        new File(name).delete()
         //System.out.println("helllo");
-        println("${name.getClass()}")
+        //println("${name.getClass()}")
     } 
 } 
